@@ -74,14 +74,12 @@ def main():
     if idx < len(qs):
         q = qs[idx]
 
-        # two columns: left=question, right=current score
         col_q, col_score = st.columns([4, 1])
         with col_score:
-            # 작게 조절한 Score 표시
             st.markdown(
                 f"""
                 <div style="text-align:center; line-height:1.2;">
-                  <div style="font-size:14px; font-weight:600; color:#aaa;">Score</div>
+                  <div style="font-size:14px; font-weight:600; color:#666;">Score</div>
                   <div style="font-size:18px; font-weight:700;">{st.session_state.score} / {len(qs)}</div>
                 </div>
                 """,
@@ -89,38 +87,34 @@ def main():
             )
 
         with col_q:
-            # 1) description + preference
-            st.markdown(f"**{q['description_moderate']}**\n\n**{q['preference']}**")
-
-            # 2) image
+            st.markdown(f"**{q['description_moderate']}**\n\n*{q['preference']}*")
             try:
                 img = Image.open(q["_img"])
                 st.image(img, use_container_width=True)
             except Exception as e:
                 st.error(f"Couldn’t load image:\n{q['_img']}\n{e}")
-
-            # 3) question text
             st.markdown(f"**Q{idx+1}. {q['question']}**")
 
-            # 4) options
             opts = [q.get(k) for k in ("A","B","C","D") if q.get(k)]
             if not opts:
                 opts = ["Yes", "No"]
-            choice = st.radio("Select an option:", opts, key=f"choice_{idx}")
 
-            # 5) Next
-            if st.button("Next", use_container_width=True):
-                correct = (choice == q["answer"])
-                # record response
-                st.session_state.responses.append({
-                    "category":    q.get("category", ""),
-                    "attribute":   q.get("attribute", ""),
-                    "l2":          q.get("l2-category", ""),
-                    "correct":     correct
-                })
-                if correct:
-                    st.session_state.score += 1
-                st.session_state.idx += 1
+            # ▶ 여기를 form 으로 묶기
+            with st.form(key=f"quiz_form_{idx}"):
+                choice = st.radio("Select an option:", opts)
+                submitted = st.form_submit_button("Next", use_container_width=True)
+
+                if submitted:
+                    correct = (choice == q["answer"])
+                    st.session_state.responses.append({
+                        "category":  q.get("category",""),
+                        "attribute": q.get("attribute",""),
+                        "l2":        q.get("l2-category",""),
+                        "correct":   correct
+                    })
+                    if correct:
+                        st.session_state.score += 1
+                    st.session_state.idx += 1
 
     # ────────────────────────────────────────────────────────
     # Quiz complete → show breakdown
