@@ -1,0 +1,92 @@
+{
+    "./human/test/AnXin/recognition/0.png": {
+        "Query": "What is the color of the bandage on <sks>'s head in the image?",
+        "Answer": "A",
+        "A": "Yellow",
+        "B": "Green",
+        "C": "Red",
+        "D": "Blue",
+        "Target": "Single"
+    },
+    "./human/test/AnXin/recognition/1.png": {
+        "Query": "What is the color of <sks>'s jacket in the image?",
+        "Answer": "A",
+        "A": "Blue",
+        "B": "Red",
+        "C": "Green",
+        "D": "Black",
+        "Target": "Single"
+    },
+    "./human/test/AnXin/recognition/2.png": {
+        "Query": "What is the color of the tie worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Gray",
+        "B": "Blue",
+        "C": "Black",
+        "D": "Red",
+        "Target": "Single"
+    },
+    "./human/test/AnXin/recognition/3.png": {
+        "Query": "What is the appearance of <sks> in the image?",
+        "Answer": "A",
+        "A": "<sks> has short dark hair and is wearing a dark jacket.",
+        "B": "<sks> is wearing a red shirt.",
+        "C": "<sks> has a beard.",
+        "D": "<sks> is wearing a hat.",
+        "Target": "Single"
+    },
+    "./human/test/AnXin/recognition/4.png": {
+        "Query": "What is the color of the tie worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Black",
+        "B": "Red",
+        "C": "Blue",
+        "D": "Green",
+        "Target": "Single"
+    },
+    "./human/test/AnXin/recognition/5.png": {
+        "Query": "What is the color of <sks>'s jacket in the image?",
+        "Answer": "A",
+        "A": "White",
+        "B": "Blue",
+        "C": "Black",
+        "D": "Red",
+        "Target": "Multi"
+    },
+    "./human/test/AnXin/recognition/6.png": {
+        "Query": "What type of clothing is <sks> wearing in this image?",
+        "Answer": "A",
+        "A": "Leather jacket and a sling",
+        "B": "Casual beige jacket",
+        "C": "Checked suit",
+        "D": "Dark coat",
+        "Target": "Multi"
+    },
+    "./human/test/AnXin/recognition/7.png": {
+        "Query": "What is the condition of <sks> in the image?",
+        "Answer": "A",
+        "A": "Injured and exhausted",
+        "B": "Looking alert",
+        "C": "Casually talking with someone",
+        "D": "In a rush to leave",
+        "Target": "Multi"
+    },
+    "./human/test/AnXin/recognition/8.png": {
+        "Query": "What is <sks> doing in this scene?",
+        "Answer": "A",
+        "A": "Supporting an injured companion",
+        "B": "Supported by a companion",
+        "C": "Leaning against a wall",
+        "D": "Talking to someone on the phone",
+        "Target": "Multi"
+    },
+    "./human/test/AnXin/recognition/9.png": {
+        "Query": "What type of clothing is <sks> wearing in this image?",
+        "Answer": "A",
+        "A": "Dark jacket",
+        "B": "Casual beige jacket",
+        "C": "Checked suit",
+        "D": "White coat",
+        "Target": "Multi"
+    }
+}

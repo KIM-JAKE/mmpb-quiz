@@ -1,0 +1,102 @@
+{
+    "./character/test/Alex/recognition/negative0.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative1.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative2.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative3.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative4.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative5.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative6.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative7.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative8.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./character/test/Alex/recognition/negative9.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ]
+}

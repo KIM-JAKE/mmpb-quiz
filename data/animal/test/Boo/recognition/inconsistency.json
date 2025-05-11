@@ -1,0 +1,47 @@
+{
+    "./animal/test/Boo/recognition/0.png": {
+        "Query": "What is <sks> wearing in this image?",
+        "Answer": "A",
+        "A": "Nothing.",
+        "B": "A red sweater with white stripes.",
+        "C": "A yellow raincoat.",
+        "D": "A blue bandana with turtle patterns.",
+        "Target": "Single"
+    },
+    "./animal/test/Boo/recognition/1.png": {
+        "Query": "How does <sks> appear in this image?",
+        "Answer": "A",
+        "A": "It has a fluffy, well-groomed coat and is sticking its tongue out.",
+        "B": "It is wet and shaking off water.",
+        "C": "It is playing with another dog in the background.",
+        "D": "It is sleeping on a couch.",
+        "Target": "Single"
+    },
+    "./animal/test/Boo/recognition/2.png": {
+        "Query": "What accessory is <sks> wearing in this image?",
+        "Answer": "A",
+        "A": "Blue swimming goggles.",
+        "B": "A black hat.",
+        "C": "A winter scarf.",
+        "D": "A bow tie.",
+        "Target": "Single"
+    },
+    "./animal/test/Boo/recognition/3.png": {
+        "Query": "What is <sks> doing in this image?",
+        "Answer": "A",
+        "A": "Being held by a person while sticking out its tongue.",
+        "B": "Running through a field.",
+        "C": "Sleeping in a dog bed.",
+        "D": "Jumping over an obstacle.",
+        "Target": "Single"
+    },
+    "./animal/test/Boo/recognition/4.png": {
+        "Query": "What is <sks> wearing in this image?",
+        "Answer": "A",
+        "A": "A red sweater while standing in an indoor setting.",
+        "B": "A blue and white striped shirt.",
+        "C": "A yellow hoodie with a bear design.",
+        "D": "A raincoat with paw prints.",
+        "Target": "Single"
+    }
+}

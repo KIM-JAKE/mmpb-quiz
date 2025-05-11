@@ -1,0 +1,47 @@
+{
+    "./human/test/Angelina/recognition/0.png": {
+        "Query": "What is the color of the flower in the hat worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Brown and green",
+        "B": "Yellow and red",
+        "C": "Yellow and orange",
+        "D": "Red and brown",
+        "Target": "Single"
+    },
+    "./human/test/Angelina/recognition/1.png": {
+        "Query": "What is the color of the hat worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Brown",
+        "B": "Red",
+        "C": "Black",
+        "D": "Blue",
+        "Target": "Single"
+    },
+    "./human/test/Angelina/recognition/2.png": {
+        "Query": "What is the color of the dress worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Brown and white",
+        "B": "Pink",
+        "C": "Blue",
+        "D": "Black",
+        "Target": "Single"
+    },
+    "./human/test/Angelina/recognition/3.png": {
+        "Query": "What is the color of the coat worn by <sks> in the image?",
+        "Answer": "A",
+        "A": "Brown",
+        "B": "Red",
+        "C": "Blue",
+        "D": "Black",
+        "Target": "Single"
+    },
+    "./human/test/Angelina/recognition/4.png": {
+        "Query": "What is the color of <sks>'s dress in the image?",
+        "Answer": "A",
+        "A": "Green",
+        "B": "Red",
+        "C": "Blue",
+        "D": "White",
+        "Target": "Single"
+    }
+}

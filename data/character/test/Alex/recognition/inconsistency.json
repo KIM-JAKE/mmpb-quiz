@@ -1,0 +1,92 @@
+{
+    "./character/test/Alex/recognition/0.png": {
+        "Query": "What is <sks> doing in this image?",
+        "Answer": "A",
+        "A": "Waving happily with a big smile",
+        "B": "Roaring aggressively",
+        "C": "Sleeping under a tree",
+        "D": "Running away from danger",
+        "Target": "Single"
+    },
+    "./character/test/Alex/recognition/1.png": {
+        "Query": "What expression does <sks> have in this image?",
+        "Answer": "A",
+        "A": "Looking at his claws with a worried face",
+        "B": "Laughing with joy",
+        "C": "Showing confidence with a smirk",
+        "D": "Yawning after a long nap",
+        "Target": "Single"
+    },
+    "./character/test/Alex/recognition/2.png": {
+        "Query": "How does <sks> look in this image?",
+        "Answer": "A",
+        "A": "Calm and slightly smug",
+        "B": "Terrified and screaming",
+        "C": "Excited and jumping",
+        "D": "Sad and crying",
+        "Target": "Single"
+    },
+    "./character/test/Alex/recognition/3.png": {
+        "Query": "What kind of mood does <sks> appear to be in?",
+        "Answer": "A",
+        "A": "Serious and intense",
+        "B": "Playful and energetic",
+        "C": "Surprised and confused",
+        "D": "Tired and sleepy",
+        "Target": "Single"
+    },
+    "./character/test/Alex/recognition/4.png": {
+        "Query": "What is <sks> doing in this image?",
+        "Answer": "A",
+        "A": "Spreading his arms wide with excitement",
+        "B": "Hiding behind a tree",
+        "C": "Crouching low in a hunting position",
+        "D": "Sitting quietly on a rock",
+        "Target": "Single"
+    },
+    "./character/test/Alex/recognition/5.png": {
+        "Query": "What is <sks>'s expression in this image?",
+        "Answer": "A",
+        "A": "Smiling confidently with a friendly demeanor",
+        "B": "Looking surprised with wide eyes",
+        "C": "Having a calm smiling with suprised eyes",
+        "D": "Frowning with anger",
+        "Target": "Multi"
+    },
+    "./character/test/Alex/recognition/6.png": {
+        "Query": "How does <sks> appear in this image?",
+        "Answer": "A",
+        "A": "Looking concerned with raised eyebrows",
+        "B": "Wearing a helmet",
+        "C": "With a skeptical expression",
+        "D": "Not present in the image",
+        "Target": "Multi"
+    },
+    "./character/test/Alex/recognition/7.png": {
+        "Query": "What is <sks>'s position in this image?",
+        "Answer": "A",
+        "A": "In the center with a surprised expression",
+        "B": "On the left side",
+        "C": "On the right side",
+        "D": "Standing alone away from the others",
+        "Target": "Multi"
+    },
+    "./character/test/Alex/recognition/8.png": {
+        "Query": "What is <sks> doing in this image?",
+        "Answer": "A",
+        "A": "Gesturing with both paws while speaking",
+        "B": "Standing still with suprised eyes",
+        "C": "Standing with hands on the waist",
+        "D": "Sleeping peacefully",
+        "Target": "Multi"
+    },
+    "./character/test/Alex/recognition/9.png": {
+        "Query": "How is <sks> positioned in this image?",
+        "Answer": "A",
+        "A": "At the bottom of the group with a toothy smile",
+        "B": "Jumping in the air",
+        "C": "Standing at the top next to the giraff",
+        "D": "Not visible in this scene",
+        "Target": "Multi"
+    }
+}

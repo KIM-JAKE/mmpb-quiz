@@ -1,0 +1,83 @@
+{
+    "./object/test/asian_doll/recognition/0.png": {
+        "Query": "Where is the <sks> positioned in relation to the book?",
+        "Answer": "A",
+        "A": "Sitting on top of the book",
+        "B": "Lying on the floor next to the book",
+        "C": "Placed on a shelf above the book",
+        "D": "Hanging on a wall next to the book",
+        "Target": "Single"
+    },
+    "./object/test/asian_doll/recognition/1.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting in front of a yellow pencil",
+        "B": "Lying behind the doll",
+        "C": "On top of a book",
+        "D": "Hanging from a wall",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/2.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting in front of the headphones",
+        "B": "Lying behind the doll",
+        "C": "Inside a box",
+        "D": "On a shelf",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/3.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting next to a blue cup",
+        "B": "Sitting next to a doll",
+        "C": "On top of a cup",
+        "D": "Leaning against a wall",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/4.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting next to a black mug",
+        "B": "Sitting next to a doll",
+        "C": "On top of a pink doll",
+        "D": "Under a black mug",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/5.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting behind glasses",
+        "B": "Sitting in front of a doll",
+        "C": "On top of a book",
+        "D": "Hanging from a wall",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/6.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting next to a yellow doll",
+        "B": "Sitting next to a pink doll",
+        "C": "On the desk",
+        "D": "Hanging from a wall",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/7.png": {
+        "Query": "What is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "In front of the gong",
+        "B": "Behind the doll",
+        "C": "On top of a stack of books",
+        "D": "Hanging from a ceiling",
+        "Target": "Multi"
+    },
+    "./object/test/asian_doll/recognition/8.png": {
+        "Query": "Which of the following is the position of <sks> in the image?",
+        "Answer": "A",
+        "A": "Sitting right next to a blue mug",
+        "B": "Sitting right next to a pink-hatted doll",
+        "C": "Hanging from a ceiling",
+        "D": "On top of a cup",
+        "Target": "Multi"
+    }
+}

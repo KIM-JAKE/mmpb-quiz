@@ -1,0 +1,237 @@
+{
+    "entertainment": {
+        "./human/test/Angelina/preference/entertainment/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Watching indie films",
+            "B": "Meditation",
+            "C": "Attending live music events",
+            "D": "Enjoying huge-budget cinema"
+        },
+        "./human/test/Angelina/preference/entertainment/inconsistent1.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Watching theater performances",
+            "B": "Food tours",
+            "C": "Observing live performances",
+            "D": "Attending concerts in the auditorium"
+        },
+        "./human/test/Angelina/preference/entertainment/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Enjoying rock concerts",
+            "B": "Enjoying wildlife safaris",
+            "C": "Enjoying thrilling live music events",
+            "D": "Enjoying exciting K-pop concerts"
+        },
+        "./human/test/Angelina/preference/entertainment/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Enjoying film festivals",
+            "B": "Enjoying home cooking",
+            "C": "Enjoying food festivals",
+            "D": "Enjoying water festivals"
+        },
+        "./human/test/Angelina/preference/entertainment/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Going to film festivals",
+            "B": "Eating plant-based diet",
+            "C": "Attending live performances",
+            "D": "Enjoying live music concerts"
+        }
+    },
+    "fashion": {
+        "./human/test/Angelina/preference/fashion/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying silk scarves",
+            "B": "Yoga",
+            "C": "Shopping for designer handbags",
+            "D": "Browsing for stylish dresses"
+        },
+        "./human/test/Angelina/preference/fashion/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying hand-knitted sweaters",
+            "B": "Enjoying hot air balloon rides",
+            "C": "Shopping for designer dresses",
+            "D": "Browsing for stylish blouses"
+        },
+        "./human/test/Angelina/preference/fashion/inconsistent2.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying woven hats",
+            "B": "Buying wireless charging stations",
+            "C": "Shopping for knitted scarves",
+            "D": "Browsing for printed dresses"
+        },
+        "./human/test/Angelina/preference/fashion/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying handcrafted leather bags",
+            "B": "Home cooking",
+            "C": "Shopping for artisanal woven scarves",
+            "D": "Selecting unique knitted sweaters"
+        },
+        "./human/test/Angelina/preference/fashion/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying handcrafted leather bags",
+            "B": "Food tours",
+            "C": "Shopping for artisanal leather purses",
+            "D": "Exploring unique handmade leather accessories"
+        }
+    },
+    "lifestyle": {
+        "./human/test/Angelina/preference/lifestyle/inconsistent0.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Home cooking",
+            "B": "Buying woven hats",
+            "C": "Ready-made food preparation",
+            "D": "Nutritious food selection"
+        },
+        "./human/test/Angelina/preference/lifestyle/inconsistent1.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying plant-based ingredients",
+            "B": "Food tours",
+            "C": "Buying meat groceries",
+            "D": "Buying meat products"
+        },
+        "./human/test/Angelina/preference/lifestyle/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Yoga",
+            "B": "Enjoying wildlife safaris",
+            "C": "Preparing pilates",
+            "D": "Getting ready to stretch"
+        },
+        "./human/test/Angelina/preference/lifestyle/inconsistent3.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Meditation",
+            "B": "Enjoying hot air balloon rides",
+            "C": "Serene forest walk",
+            "D": "Hiking"
+        },
+        "./human/test/Angelina/preference/lifestyle/inconsistent4.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Meditation",
+            "B": "Enjoying wildlife safaris",
+            "C": "Pilates practice",
+            "D": "Mindfulness exercise"
+        }
+    },
+    "shopping": {
+        "./human/test/Angelina/preference/shopping/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying Bluetooth speakers",
+            "B": "Meditation",
+            "C": "Purchasing home theater systems",
+            "D": "Selecting high-end audio equipment"
+        },
+        "./human/test/Angelina/preference/shopping/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying wireless charging stations",
+            "B": "Yoga",
+            "C": "Purchasing smart home devices",
+            "D": "Acquiring mechanical keyboards"
+        },
+        "./human/test/Angelina/preference/shopping/inconsistent2.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying ceramic pottery",
+            "B": "Enjoying film festivals",
+            "C": "Selecting fine cutlery",
+            "D": "Choosing decorative glassware"
+        },
+        "./human/test/Angelina/preference/shopping/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying kitchen appliances",
+            "B": "Historical site tours",
+            "C": "Purchasing home electronics",
+            "D": "Acquiring bedroom furniture"
+        },
+        "./human/test/Angelina/preference/shopping/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying ceramic pottery",
+            "B": "Food tours",
+            "C": "Exploring artisan crafts",
+            "D": "Browsing handmade bags"
+        }
+    },
+    "travel": {
+        "./human/test/Angelina/preference/travel/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Going on a wildlife safari",
+            "B": "Meditation",
+            "C": "Exploring the jungle",
+            "D": "Trekking through the wilderness"
+        },
+        "./human/test/Angelina/preference/travel/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Going on a wildlife safari",
+            "B": "Buying wireless charging stations",
+            "C": "Exploring nature's wonders",
+            "D": "Trekking through the wilderness"
+        },
+        "./human/test/Angelina/preference/travel/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Going on a hot air balloon ride tour",
+            "B": "Buying silk scarves",
+            "C": "Exploring the city on a sightseeing bus tour.",
+            "D": "Taking a scenic helicopter flight over the mountains."
+        },
+        "./human/test/Angelina/preference/travel/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Going on food tours",
+            "B": "Wathcing indie films",
+            "C": "Exploration in new cities",
+            "D": "Savoring local cafes during travels"
+        },
+        "./human/test/Angelina/preference/travel/inconsistent4.png": {
+            "Query": "Which part of the image shows an activity that <sks> is most likely to do?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Lower left",
+            "B": "Lower right",
+            "C": "Upper left",
+            "D": "Upper right"
+        }
+    }
+}

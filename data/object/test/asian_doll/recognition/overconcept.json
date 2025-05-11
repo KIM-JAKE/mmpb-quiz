@@ -1,0 +1,102 @@
+{
+    "./object/test/asian_doll/recognition/negative0.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative1.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative2.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative3.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative4.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative5.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative6.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative7.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative8.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ],
+    "./object/test/asian_doll/recognition/negative9.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "No"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "No"
+        }
+    ]
+}

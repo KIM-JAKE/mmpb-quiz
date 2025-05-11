@@ -1,0 +1,212 @@
+{
+    "entertainment": {
+        "./human/test/Angelina/preference/entertainment/dislikes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/dislikes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/dislikes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/dislikes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/dislikes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/likes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/likes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/likes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/likes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/entertainment/likes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        }
+    },
+    "fashion": {
+        "./human/test/Angelina/preference/fashion/dislikes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/dislikes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/dislikes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/dislikes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/dislikes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/likes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/likes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/likes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/likes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/fashion/likes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        }
+    },
+    "lifestyle": {
+        "./human/test/Angelina/preference/lifestyle/dislikes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/dislikes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/dislikes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/dislikes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/dislikes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/likes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/likes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/likes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/likes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/lifestyle/likes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        }
+    },
+    "shopping": {
+        "./human/test/Angelina/preference/shopping/dislikes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/dislikes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/dislikes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/dislikes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/dislikes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/likes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/likes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/likes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/likes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/shopping/likes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        }
+    },
+    "travel": {
+        "./human/test/Angelina/preference/travel/dislikes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/dislikes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/dislikes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/dislikes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/dislikes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/likes0.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/likes1.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/likes2.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/likes3.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        },
+        "./human/test/Angelina/preference/travel/likes4.png": {
+            "Query": "Is this image related to <sks>'s positive or negative preference? Answer with either ‘Yes’ or ‘No’.",
+            "Answer": "Yes"
+        }
+    }
+}

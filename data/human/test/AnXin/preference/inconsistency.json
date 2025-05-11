@@ -1,0 +1,237 @@
+{
+    "entertainment": {
+        "./human/test/AnXin/preference/entertainment/inconsistent0.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Watching a documentary film",
+            "B": "Buying high heels",
+            "C": "Watching a nature show",
+            "D": "Observing a historical film"
+        },
+        "./human/test/AnXin/preference/entertainment/inconsistent1.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Watching a musical movie",
+            "B": "Doing infrared sauna therapy",
+            "C": "Observing a dramatic film.",
+            "D": "Viewing a suspenseful movie."
+        },
+        "./human/test/AnXin/preference/entertainment/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Watching street performance videos",
+            "B": "Aromatherapy",
+            "C": "Watching cooking tutorial videos",
+            "D": "Viewing travel vlogs"
+        },
+        "./human/test/AnXin/preference/entertainment/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Watching documentary film",
+            "B": "Ice fishing",
+            "C": "Watching a thriller movie",
+            "D": "Streaming a comedy special"
+        },
+        "./human/test/AnXin/preference/entertainment/inconsistent4.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Watching improv comedy",
+            "B": "Searching for luxury resorts",
+            "C": "Observing live theater performance",
+            "D": "Watching a scripted comedy"
+        }
+    },
+    "fashion": {
+        "./human/test/AnXin/preference/fashion/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying a bohemian dress",
+            "B": "Watching street performances",
+            "C": "Exploring vintage boutiques",
+            "D": "Searching for chic casual wear"
+        },
+        "./human/test/AnXin/preference/fashion/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Shopping for formal evening wear",
+            "B": "Buying handwoven rugs",
+            "C": "Exploring elegant evening attire",
+            "D": "Searching for stylish evening wear"
+        },
+        "./human/test/AnXin/preference/fashion/inconsistent2.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying high heels",
+            "B": "Watching musicals",
+            "C": "Shopping for trendy dresses",
+            "D": "Browsing for stylish tops"
+        },
+        "./human/test/AnXin/preference/fashion/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying high heels",
+            "B": "Ice fishing",
+            "C": "Purchasing stylish flats",
+            "D": "Selecting trendy sneakers"
+        },
+        "./human/test/AnXin/preference/fashion/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying tight-fitting clothes",
+            "B": "Getting acupuncture",
+            "C": "Purchasing stylish flats",
+            "D": "Selecting trendy sneakers"
+        }
+    },
+    "lifestyle": {
+        "./human/test/AnXin/preference/lifestyle/inconsistent0.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Getting acupuncture",
+            "B": "Backcountry camping",
+            "C": "Receiving a massage",
+            "D": "Having a relaxing spa treatment"
+        },
+        "./human/test/AnXin/preference/lifestyle/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Essential oil therapy",
+            "B": "Buying fancy cutlery sets",
+            "C": "Receiving a massage",
+            "D": "Scented relaxation"
+        },
+        "./human/test/AnXin/preference/lifestyle/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Aromatherapy",
+            "B": "Buying a bohemian dress",
+            "C": "Receiving a massage",
+            "D": "Fragrant wax ambiance"
+        },
+        "./human/test/AnXin/preference/lifestyle/inconsistent3.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Aromatherapy",
+            "B": "Watching street performances",
+            "C": "Meditation",
+            "D": "Scented Steam Bath"
+        },
+        "./human/test/AnXin/preference/lifestyle/inconsistent4.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Essential oil therapy",
+            "B": "Backpacking tour",
+            "C": "Getting massage",
+            "D": "Relaxation"
+        }
+    },
+    "shopping": {
+        "./human/test/AnXin/preference/shopping/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying handwoven rugs",
+            "B": "Watching street performances",
+            "C": "Shopping for artisan pottery",
+            "D": "Browsing for antique jewelry"
+        },
+        "./human/test/AnXin/preference/shopping/inconsistent1.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying handwoven rugs",
+            "B": "Luxury resort tour",
+            "C": "Exploring artisan textiles",
+            "D": "Searching for unique tapestries"
+        },
+        "./human/test/AnXin/preference/shopping/inconsistent2.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Buying fancy cutlery sets",
+            "B": "Aromatherapy",
+            "C": "Shopping for fine china sets",
+            "D": "Browsing for elegant tableware"
+        },
+        "./human/test/AnXin/preference/shopping/inconsistent3.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying gaming accessories",
+            "B": "Getting acupuncture",
+            "C": "Shopping for gardening tools",
+            "D": "Exploring electronics store"
+        },
+        "./human/test/AnXin/preference/shopping/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Buying tech gadgets",
+            "B": "Doing infrared sauna therapy",
+            "C": "Exploring the latest fashion trends",
+            "D": "Searching for home decor items"
+        }
+    },
+    "travel": {
+        "./human/test/AnXin/preference/travel/inconsistent0.png": {
+            "Query": "Based on the image, what is <sks> most likely to be doing?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Going on a backpacking trip",
+            "B": "Essential oil therapy",
+            "C": "Exploring new horizons",
+            "D": "Embarking on an adventure"
+        },
+        "./human/test/AnXin/preference/travel/inconsistent1.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Planning a backcountry camping trip",
+            "B": "Buying tech gadgets",
+            "C": "Organizing a cross-country road trip",
+            "D": "Preparing for a long-distance hiking adventure"
+        },
+        "./human/test/AnXin/preference/travel/inconsistent2.png": {
+            "Query": "Which part of the image shows an activity that <sks> is most likely to do?",
+            "Answer": "A",
+            "Target": "like",
+            "A": "Upper right",
+            "B": "Upper left",
+            "C": "Lower right",
+            "D": "Lower left"
+        },
+        "./human/test/AnXin/preference/travel/inconsistent3.png": {
+            "Query": "Which part of the image shows an activity that <sks> is least likely to do?",
+            "Target": "dislike",
+            "Answer": "A",
+            "B": "Lower left",
+            "A": "Lower right",
+            "C": "Upper left",
+            "D": "Upper right"
+        },
+        "./human/test/AnXin/preference/travel/inconsistent4.png": {
+            "Query": "Among the activities that could reasonably occur in the given image, which one is <sks> least likely to be doing?",
+            "Answer": "A",
+            "Target": "dislike",
+            "A": "Going on an ice fishing trip",
+            "B": "Watching musicals",
+            "C": "Exploring the great outdoors",
+            "D": "Venturing into the wilderness"
+        }
+    }
+}

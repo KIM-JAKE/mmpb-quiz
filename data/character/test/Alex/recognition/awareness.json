@@ -1,0 +1,122 @@
+{
+    "./character/test/Alex/recognition/0.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        }
+    ],
+    "./character/test/Alex/recognition/1.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        }
+    ],
+    "./character/test/Alex/recognition/2.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        }
+    ],
+    "./character/test/Alex/recognition/3.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        }
+    ],
+    "./character/test/Alex/recognition/4.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Single"
+        }
+    ],
+    "./character/test/Alex/recognition/5.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        }
+    ],
+    "./character/test/Alex/recognition/6.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        }
+    ],
+    "./character/test/Alex/recognition/7.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        }
+    ],
+    "./character/test/Alex/recognition/8.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        }
+    ],
+    "./character/test/Alex/recognition/9.png": [
+        {
+            "Query": "Is <sks> present in this photo? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        },
+        {
+            "Query": "Can you see <sks> in the image? Answer with a single word.",
+            "Answer": "Yes",
+            "Target": "Multi"
+        }
+    ]
+}
