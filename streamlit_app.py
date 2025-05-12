@@ -6,35 +6,13 @@ import os
 
 def resolve_path(raw_path: str, data_dir="data"):
     """
-    Turn the CSV's image_path into a real file, trying:
-      1) the raw path as-is,
-      2) stripping any leading prefix and prefixing with data_dir,
-      3) walking data_dir for any file matching the basename under the right name.
+    Resolve an image path relative to data_dir using the CSV path.
+    Only valid if the file exists exactly at data_dir/raw_path.
     """
-    raw = raw_path.replace("\\", "/")
-    basename = os.path.basename(raw)
-
-    # 1) raw
-    if os.path.exists(raw):
-        return raw
-
-    # 2) strip up to NAME and prefix with data_dir
-    parts = raw.split("/")
-    if len(parts) >= 3:
-        tail = "/".join(parts[2:])  # NAME/.../file.png
-        attempt2 = os.path.join(data_dir, tail)
-        if os.path.exists(attempt2):
-            return attempt2
-
-    # 3) walk data_dir matching basename + containing the name folder
-    name = parts[2] if len(parts) >= 3 else ""
-    for root, _, files in os.walk(data_dir):
-        if basename in files:
-            if not name or name in root:
-                return os.path.join(root, basename)
-
-    # fallback: show what we’d tried
-    return attempt2 if 'attempt2' in locals() else raw
+    # Normalize path separators
+    rel = raw_path.replace("\\", "/").lstrip("/")
+    candidate = os.path.join(data_dir, rel)
+    return candidate
 
 @st.cache_data
 def load_questions(csv_path: str, data_dir: str = "data"):
@@ -46,17 +24,32 @@ def load_questions(csv_path: str, data_dir: str = "data"):
     valid = []
     for r in records:
         img = resolve_path(r["image_path"], data_dir)
+        # skip any image not located inside data_dir
+        abs_data = os.path.abspath(data_dir)
+        abs_img = os.path.abspath(img)
+        if not abs_img.startswith(abs_data + os.sep):
+            continue
+        # skip any image not under the "test" subdirectory
+        if os.sep + "test" + os.sep not in abs_img:
+            continue
         if os.path.exists(img):
             r["_img"] = img
             valid.append(r)
 
+    # Rename specific categories for display
+    mapping = {"overconcept": "appropriateness", "inconsistency": "coherency"}
+    for r in valid:
+        if r.get("l2-category") in mapping:
+            r["l2-category"] = mapping[r["l2-category"]]
+        if r.get("attribute") in mapping:
+            r["attribute"] = mapping[r["attribute"]]
     return valid
 
 def main():
     st.set_page_config(page_title="Beat the VLMs: MMPB Quiz", layout="centered")
     st.title("Beat the VLMs: MMPB Quiz")
 
-    # Load and keep only the first 10 for a quick test
+    # Load all valid questions from data directory
     qs = load_questions("dataset5.csv", data_dir="data")[:]
     st.caption(f"🔍 Loaded {len(qs)} questions")
 
@@ -87,7 +80,7 @@ def main():
             )
 
         with col_q:
-            st.markdown(f"**{q['description_moderate']}**\n\n*{q['preference']}*")
+            st.markdown(f"**{q['description_moderate']}**\n\n**{q['preference']}**")
             try:
                 img = Image.open(q["_img"])
                 st.image(img, use_container_width=True)
@@ -95,17 +88,27 @@ def main():
                 st.error(f"Couldn’t load image:\n{q['_img']}\n{e}")
             st.markdown(f"**Q{idx+1}. {q['question']}**")
 
-            opts = [q.get(k) for k in ("A","B","C","D") if q.get(k)]
-            if not opts:
-                opts = ["Yes", "No"]
+            # Prepare option mapping (letter->text) or Yes/No
+            opt_keys = [k for k in ("A","B","C","D") if q.get(k)]
+            if opt_keys:
+                opts_dict = {k: q[k] for k in opt_keys}
+            else:
+                opts_dict = {"Yes": "Yes", "No": "No"}
 
-            # ▶ 여기를 form 으로 묶기
             with st.form(key=f"quiz_form_{idx}"):
-                choice = st.radio("Select an option:", opts)
+                choice_key = st.radio("Select an option:", list(opts_dict.keys()), format_func=lambda x: opts_dict[x])
                 submitted = st.form_submit_button("Next", use_container_width=True)
 
                 if submitted:
-                    correct = (choice == q["answer"])
+                    # Determine correctness: if answer is a letter key, compare keys; else compare text
+                    ans = q["answer"]
+                    selected_letter = choice_key
+                    selected_text = opts_dict[choice_key]
+                    if ans in opts_dict:
+                        correct = (selected_letter == ans)
+                    else:
+                        correct = (selected_text == ans)
+
                     st.session_state.responses.append({
                         "category":  q.get("category",""),
                         "attribute": q.get("attribute",""),
